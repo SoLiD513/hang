@@ -1,6 +1,12 @@
-import React, { Component } from 'react';
+import React from "react";
+class App extends React.Component {
+  constructor(props) {
+    super(props);
 
-class App extends Component {
+    this.state = {};
+
+  }
+
   render() {
     return (
       <div>
@@ -9,5 +15,9 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+
+};
 
 export default App;
